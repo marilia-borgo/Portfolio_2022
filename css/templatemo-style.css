@@ -237,11 +237,14 @@ p {
 
 .tm-img-right {
   margin-left: -1px; /* to fix 1 px gap in Chrome */
+  margin-top: 4rem;
 }
 
 .tm-img-left-container,
 .tm-text-left-container {
   padding-right: 0;
+  margin-top: 2rem;
+  
 }
 
 .tm-img-right-container {
@@ -389,6 +392,7 @@ figure.effect-duke:hover p {
   margin-left: auto;
   margin-right: 0;
   padding: 70px 45px 70px 70px;
+  margin-top: 159px;
 }
 
 .tm-contact-left,
@@ -468,7 +472,7 @@ figure.effect-duke:hover p {
 }
 
 .tm-contact-form-container {
-  padding: 55px 67px;
+  padding: 10px 67px;
 }
 
 .tm-btn-submit {
