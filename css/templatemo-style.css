@@ -716,9 +716,11 @@ hr {
   #outro {
     padding-top: 45px;
   }
+  
 }
 
 @media (max-width: 767px) {
+ 
   .columns-bg {
     background-image: none;
   }
@@ -751,7 +753,7 @@ hr {
   }
 
   #our_place {
-    background-color: white;
+    background-color: #EDCEAB;
     padding-top: 35px;
     padding-bottom: 35px;
   }
@@ -844,7 +846,7 @@ hr {
   }
 
   .tm-copyright-text {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #EDCEAB;
     padding: 10px 10px 10px 0;
   }
 
@@ -874,9 +876,15 @@ hr {
   .grid figure {
     flex: 1 0 40%;
   }
+
+ 
 }
 
 @media (max-width: 575px) {
+
+  .html{
+    background-color: #EDCEAB;
+  }
   .tm-section-text-container-5 {
     padding-right: 15px;
     margin-left: 0;
