@@ -610,6 +610,39 @@ hr {
   padding: 60px 40px 55px 70px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #EDCEAB;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  top:0;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #701C16;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1280px;
@@ -711,6 +744,7 @@ hr {
     width: 80%;
   }
 }
+
 
 @media (max-width: 900px) {
   #outro {
